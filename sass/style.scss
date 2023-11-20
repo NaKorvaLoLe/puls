@@ -1,0 +1,34 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'libs/slick';
+@import 'libs/_animate.min';
+@import 'base/variables';
+@import 'base/animations';
+
+
+
+*{
+    font-family: 'Museo Sans Curl', sans-serif;
+}
+
+button{
+    outline: none;
+}
+.container{
+    width: 950px;
+    margin: 0 auto;
+}
+
+@import 'block/promo';
+@import 'block/header';
+@import 'block/buttons';
+@import 'block/advantages';
+@import 'block/titles';
+@import 'block/consultation';
+@import 'block/forms';
+@import 'block/carousel';
+@import 'block/catalog';
+@import 'block/reviews';
+@import 'block/footer';
+@import 'block/modal';
+@import 'block/pageup';
